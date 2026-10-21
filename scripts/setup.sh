@@ -33,7 +33,7 @@ fi
 
 # --- Dependencies ---
 echo "Installing dependencies (this may take a minute the first time) ..."
-"$VENV/bin/pip" install --upgrade pip --quiet
+"$VENV/bin/pip" install --upgrade "pip>=26.2.2" --quiet
 "$VENV/bin/pip" install -r "$PROJECT_DIR/requirements.txt" --quiet
 echo "Dependencies installed."
 
