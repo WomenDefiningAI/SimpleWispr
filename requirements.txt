@@ -4,5 +4,5 @@ sounddevice>=0.4.6
 numpy>=1.24.0
 pywhispercpp>=1.2.0
 pyperclip>=1.8.0
-certifi>=2024.0.0
+certifi>=2026.10.19
 pytest>=7.0.0
